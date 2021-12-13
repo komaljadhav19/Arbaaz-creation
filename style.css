@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 300px;
+    position: relative;
+}
+.col1{
+    background-color:#fa644a;
+    flex: 25%;
+    height: 80vh;
+    border-radius: 12px 0 0 12px;
+}
+.col2{
+    background-color: #fde5da;
+    flex: 50%;
+    height: 80vh;
+    border-radius: 0 12px 12px 0;
+}
+.col1-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+    align-items: center;
+}
+.col1-data h2{
+    text-transform: capitalize;
+    color: white;
+}
+.col1-data p{
+    color: rgb(224, 221, 221);
+    font-size: 0.8rem;
+}
+.form-line1{
+    display: flex;
+}
+.col2-data{
+    padding: 30px;
+}
+.col2-data h4{
+    letter-spacing: 1px;
+    font-weight: 580;
+}
+.names label,
+#phon,
+#addres,
+#cit{
+    margin-top: 30px;
+    text-transform: capitalize;
+    font-size: 0.8rem;
+}
+.names input,
+#phone,
+#address,
+#city{
+    width: 150px;
+    height: 25px;
+    font-size: 0.7rem;
+    margin-top: 2px;
+    padding: 0 6px;
+    border: none;
+}
+#lastnam,
+#lastname{
+    margin-left: 70px;
+}
+#address{
+    width: 367px;
+}
+.btns{
+    display: flex;
+    margin-top: 30px;
+}
+.btns .btn1 button,
+.btns .btn2 button{
+    border: none;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    padding: 5px 24px;
+    border-radius: 15px;
+    background-color: white;
+}
+.btns .btn2{
+    margin-left: 260px;
+}
+.btns .btn2 button{
+    color: white;
+    background: linear-gradient(to right,#796044,#772f1a);
+}
+#circle1{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(to bottom,#f7816c,#df482d);
+    border-radius: 50%;
+    top:170px;
+    left: 410px;
+}
+#circle2,
+#circle3,
+#circle4{
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(to bottom,#f7816c,#df482d);
+    border-radius: 50%;
+    position: absolute;
+    top:62px;
+    left: 380px;
+}
+#circle3{
+    top: 480px;
+    left: 320px;
+}
+#circle4{
+    left: 565px;
+    top: 350px;
+    width: 42px;
+    height: 42px;
+}
